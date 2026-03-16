@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Classes Management</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" />
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html"><i class="fas fa-school me-2"></i>Greenfield School</a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="topNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item me-lg-3"><a class="nav-link" href="#"><i class="fas fa-bell"></i></a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="profileMenu" role="button" data-mdb-toggle="dropdown" aria-expanded="false"><i class="fas fa-user-circle me-1"></i>Admin User</a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileMenu">
+              <li><a class="dropdown-item" href="settings.html">Profile Settings</a></li>
+              <li><a class="dropdown-item" href="login.html">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid"><div class="row">
+      <aside class="col-12 col-md-3 col-lg-2 p-0 bg-white border-end"><div class="list-group list-group-light rounded-0">
+            <a href="index.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-gauge-high me-2"></i>Dashboard</a>
+            <a href="students.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-user-graduate me-2"></i>Students</a>
+            <a href="teachers.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-chalkboard-user me-2"></i>Teachers</a>
+            <a href="classes.html" class="list-group-item list-group-item-action border-0 active fw-bold"><i class="fas fa-school me-2"></i>Classes</a>
+            <a href="attendance.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-calendar-check me-2"></i>Attendance</a>
+            <a href="fees.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-money-bill-wave me-2"></i>Fees</a>
+            <a href="results.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-square-poll-vertical me-2"></i>Results</a>
+            <a href="notices.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-bullhorn me-2"></i>Notices</a>
+            <a href="settings.html" class="list-group-item list-group-item-action border-0"><i class="fas fa-gear me-2"></i>Settings</a>
+      </div></aside>
+      <main class="col-12 col-md-9 col-lg-10 p-3 p-md-4">
+        <h1 class="h4 mb-3">Classes Management</h1><div class="card"><div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2"><span>Class List</span><div class="form-outline" data-mdb-input-init><input type="search" id="classSearch" class="form-control" /><label class="form-label" for="classSearch">Search classes</label></div></div><div class="table-responsive"><table class="table align-middle mb-0"><thead><tr><th>Class</th><th>Section</th><th>Class Teacher</th><th>Total Students</th></tr></thead><tbody><tr><td>8</td><td>A</td><td>Ms. Sofia Ali</td><td>32</td></tr><tr><td>9</td><td>B</td><td>Mr. Usman Tariq</td><td>29</td></tr><tr><td>10</td><td>A</td><td>Mr. Bilal Ahmad</td><td>35</td></tr></tbody></table></div><div class="card-footer"><nav aria-label="Classes pagination"><ul class="pagination pagination-circle mb-0 justify-content-end"><li class="page-item active"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li></ul></nav></div></div>
+      </main>
+  </div></div>
+  <footer class="bg-white border-top py-3 mt-3"><div class="container-fluid text-center small text-muted">© 2026 Greenfield School Management System</div></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+</body>
+</html>
